@@ -18,7 +18,7 @@ async def handle_fsub(c, m):
     except UserNotParticipant:
         await c.send_message(
             m.from_user.id,
-            "**Masuk ke channel terlebih dahulu untuk menbbunakan bot!**",
+            "**Masuk ke channel terlebih dahulu untuk menggunakan bot!**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
